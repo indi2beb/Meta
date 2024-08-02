@@ -7591,7 +7591,7 @@
                                 }), (0, f.jsx)("div", {
                                     className: "divider"
                                 }), (0, f.jsx)("a", {
-                                    href: "https://telegram.me/metaxcoiniobot",
+                                    href: "https://telegram.me/metaxcoinio",
                                     target: "_blank",
                                     rel: "noreferrer",
                                     children: (0, f.jsx)("img", {
@@ -7603,22 +7603,28 @@
                     }), (0, f.jsx)("a", {
     className: "reserved",
     children: "Start Tap Robot 🤖",
-    href: "https://telegram.me/metaxcoinio",
+    href: "https://telegram.me/metaxcoiniobot",
     target: "_blank",
     rel: "noreferrer",
     style: {
         display: 'inline-block',
-        padding: '10px 20px',
+        padding: '9px 29px',
         fontSize: '16px',
         color: 'white',
         background: 'linear-gradient(135deg, #a392fa, #512da8)',
         border: 'none',
-        borderRadius: '30px',
+        borderRadius: '36px',
         textAlign: 'center',
         textDecoration: 'none',
         cursor: 'pointer',
         transition: 'transform 0.2s, box-shadow 0.2s',
         boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+        
+        position: 'absolute',    // Added for absolute positioning
+                bottom: '100px',        // Adjust this value to move the button higher or lower
+                left: '50%',
+                transform: 'translateX(-50%)'
+        
     },
     onMouseEnter: (e) => {
         e.currentTarget.style.transform = 'scale(1.05)';
