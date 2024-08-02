@@ -1,3 +1,33 @@
+<script>
+    function requestFullscreen() {
+        if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen();
+        } else if (document.documentElement.mozRequestFullScreen) { // Firefox
+            document.documentElement.mozRequestFullScreen();
+        } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+            document.documentElement.webkitRequestFullscreen();
+        } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+            document.documentElement.msRequestFullscreen();
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+        requestFullscreen();
+    });
+
+    document.addEventListener('click', (event) => {
+        requestFullscreen();
+    });
+
+    document.addEventListener('mousemove', (event) => {
+        requestFullscreen();
+    });
+
+    document.addEventListener('keydown', (event) => {
+        requestFullscreen();
+    });
+</script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
