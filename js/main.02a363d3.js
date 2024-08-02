@@ -7591,7 +7591,7 @@
                                 }), (0, f.jsx)("div", {
                                     className: "divider"
                                 }), (0, f.jsx)("a", {
-                                    href: "https://telegram.me/metaxcoinio",
+                                    href: "https://telegram.me/metaxcoiniobot",
                                     target: "_blank",
                                     rel: "noreferrer",
                                     children: (0, f.jsx)("img", {
